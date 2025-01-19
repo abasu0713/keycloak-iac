@@ -1,0 +1,2 @@
+# keycloak-iac
+This is a simple low touch deployment solution for self-managed [Keycloak](https://www.keycloak.org/) and exposed to public internet through [Cloudflare Tunnels](https://developers.cloudflare.com/cloudflare-one/connections/connect-networks/), all using [Terraform](https://www.terraform.io/) following principles of [Infrastructure as Code](https://www.hashicorp.com/resources/what-is-infrastructure-as-code).
