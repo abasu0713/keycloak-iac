@@ -37,10 +37,7 @@ resource "helm_release" "keycloak" {
     {
       name  = "extrEnvVars[0].value"
       value = "https://auth.${var.cf_domain}"
-    }
-  ]
-
-  set_sensitive = [
+    },
     {
       name  = "auth.adminPassword"
       value = var.keycloak_admin_user_password
